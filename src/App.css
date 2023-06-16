@@ -12,7 +12,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background:rgba(71, 58, 58, 0.5);
+  background: rgba(71, 58, 58, 0.5);
 }
 
 .App input {
@@ -77,6 +77,9 @@
 
 .response-text {
   white-space: pre-wrap;
+  font-size: large;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
 button {

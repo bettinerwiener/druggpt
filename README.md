@@ -3,7 +3,7 @@
 1. Clone the project.
 2. Make sure you have node installed. To check, run `node -v` in a terminal. If not, install it according to the OS you are running on.
 3. Inside the project, run `npm install`.
-4. In `src/apiService.ts` you need to add your own OpenAI API key. To create a new key, navigate to [https://platform.openai.com/account/api-keys](https://platform.openai.com/account/api-keys).
+4. In `.env` you need to add your own OpenAI API key. To create a new key, navigate to [https://platform.openai.com/account/api-keys](https://platform.openai.com/account/api-keys).
 
 ## Available Scripts
 
