@@ -5,7 +5,7 @@ class APIService {
 
   constructor() {
     const configuration = new Configuration({
-      apiKey: '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',
+      apiKey: '', // please add your apiKey here
     });
     this.openai = new OpenAIApi(configuration);
   }
