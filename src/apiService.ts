@@ -5,7 +5,7 @@ class APIService {
 
   constructor() {
     const configuration = new Configuration({
-      apiKey: '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',
+      apiKey: '',
     });
     this.openai = new OpenAIApi(configuration);
   }
@@ -13,9 +13,12 @@ class APIService {
   async createCompletion(request: CreateCompletionRequest, requestOptions?: any) {
     try {
       console.log(request)
-      const completion = await this.openai.createCompletion(request, requestOptions);
-      console.log(completion.data.choices[0].text);
-      return completion.data.choices[0].text;
+      console.log(request.prompt)
+      // const completion = await this.openai.createCompletion(request, requestOptions);
+      // console.log(completion.data.choices[0].text);
+      // console.log(completion)
+      // return completion.data.choices[0].text;
+    return 'Paracetamol is a commonly used pain reliever and fever reducer. It is important to note that I cannot provide specific medical advice or access current information beyond my September 2021 knowledge cutoff. However, based on general knowledge, I can provide some information.';
     } catch (error) {
       console.error("Failed to create completion:", error);
       throw error;
